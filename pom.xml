@@ -23,7 +23,7 @@
 
     </dependencies>
 
-    <build>
+<build>
     <plugins>
         <plugin>
             <groupId>org.apache.maven.plugins</groupId>
@@ -33,9 +33,11 @@
                 <source>1.7</source>
                 <target>1.7</target>
                 <compilerVersion>1.7</compilerVersion>
+                <executable>${JAVA_HOME}/bin/javac</executable>
             </configuration>
         </plugin>
     </plugins>
 </build>
+
 
 </project>
